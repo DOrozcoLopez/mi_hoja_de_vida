@@ -1,0 +1,146 @@
+/* RESET */
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+/* BODY */
+body{
+    font-family: 'Georgia', serif;
+    background:#efe7dc;
+    color:#5a3e2b;
+    line-height:1.6;
+}
+
+/* CONTENEDOR GENERAL */
+body > header,
+body > section{
+    max-width:1000px;
+    margin:0 auto;
+}
+
+/* HEADER */
+header{
+    background:#9c643c;
+    color:white;
+    text-align:center;
+    padding:70px 20px 50px;
+}
+
+header h1{
+    font-size:48px;
+    font-weight:normal;
+    letter-spacing:2px;
+}
+
+header p{
+    margin-top:10px;
+    font-size:18px;
+}
+
+nav{
+    margin-top:25px;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:0 10px;
+    font-size:14px;
+    letter-spacing:1px;
+}
+
+nav a:hover{
+    text-decoration:underline;
+}
+
+
+
+/* SECCIONES COMO TARJETAS */
+section{
+    background: #fdfaf6;
+    padding: 40px 50px;
+    margin: 40px auto;
+    max-width: 900px;
+    border-radius: 18px;
+    box-shadow: 0 15px 35px rgba(0,0,0,0.08);
+}
+
+
+/* Línea vertical central */
+
+
+/* Títulos */
+h2{
+    color:#9c643c;
+    font-size:22px;
+    margin-bottom:15px;
+    letter-spacing:1px;
+}
+
+h3{
+    margin-top:15px;
+    font-size:18px;
+}
+
+h4{
+    font-size:16px;
+}
+
+/* Listas */
+ul{
+    margin-left:20px;
+    margin-top:8px;
+}
+
+li{
+    margin-bottom:6px;
+}
+
+article{
+    margin-bottom:20px;
+}
+
+
+#foto_daniel_sombrero{
+    grid-column:2;
+    width:100%;
+    max-width:300px;
+    border-radius:15px;
+    box-shadow:0 10px 25px rgba(0,0,0,0.15);
+    justify-self:center;
+}
+
+/* Separación entre secciones */
+section + section{
+    border-top:1px solid #d8c5b5;
+}
+
+
+.perfil {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 40px;
+}
+
+.perfil-imagen img {
+  width: 280px;
+  border-radius: 12px;
+}
+
+
+.perfil-texto {
+  flex: 1;
+}
+
+.perfil-imagen {
+  flex: 1;
+  text-align: center;
+}
+
+.perfil-imagen img {
+  width: 250px;
+  border-radius: 10px;
+}
